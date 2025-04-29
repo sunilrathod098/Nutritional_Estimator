@@ -1,0 +1,33 @@
+{
+  "name": "vyb-assignment",
+  "version": "1.0.0",
+  "description": "AI-powered nutrition estimator for Indian home-cooked meals",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js",
+    "api": "node server.js"
+  },
+  "keywords": [
+    "nutrition",
+    "AI",
+    "Indian food",
+    "VYB",
+    "health"
+  ],
+  "author": "Sunil Rathod",
+  "github": "https://github.com/sunilrathod098/vyb-assignment",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "openai": "^4.96.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
