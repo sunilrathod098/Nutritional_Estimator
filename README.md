@@ -209,6 +209,9 @@ Each functionality is separated into its own module:
 **Sunil Rathod**
 [GitHub Profile](https://github.com/sunilrathod098)
 
+- 🔗 [GitHub Repository]: [https://github.com/sunilrathod098/Nutritional_Estimator.git]
+- 📁 [Google Drive Link]: [https://drive.google.com/drive/folders/1kM62jXjWZSV3FdOVxru5Q5LvkNG2RtbV?usp=sharing]
+
 
 ## 🧾 Conclusion
 - This project provides a modular and scalable solution for estimating the nutritional value of Indian dishes like Paneer Butter Masala. By integrating the Spoonacular API for ingredient parsing, mapping household measurements to grams, and using a local nutrition database, the app delivers accurate nutrition insights even for complex traditional recipes.
