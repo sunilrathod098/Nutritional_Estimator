@@ -1,8 +1,8 @@
-import fetchRecipe from "./fetchRecipe.js";
-import mapIngredient from "./mapIngredients.js";
-import convertToGrams from "./connvertQuantities.js";
-import calculateNutrition from "./calculateNutrition.js";
-import classifyDish from "./classifyDish.js";
+import fetchRecipe from "./modules/fetchRecipe.js";
+import mapIngredient from "../mapIngredients.js";
+import convertToGrams from "./modules/convertQuantities.js";
+import calculateNutrition from "./modules/calculateNutrition.js";
+import classifyDish from "./modules/classifyDish.js";
 import readline from "readline-sync";
 
 

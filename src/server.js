@@ -1,9 +1,9 @@
 import express from "express";
-import calculateNutrition from "../src/calculateNutrition.js";
-import classifyDish from "../src/classifyDish.js";
-import convertToGrams from "../src/connvertQuantities.js";
-import fetchRecipe from "../src/fetchRecipe.js";
-import mapIngredient from "../src/mapIngredients.js";
+import calculateNutrition from "../src/modules/calculateNutrition.js";
+import classifyDish from "../src/modules/classifyDish.js";
+import convertToGrams from "../src/modules/convertQuantities.js";
+import fetchRecipe from "../src/modules/fetchRecipe.js";
+import mapIngredient from "../src/modules/mapIngredients.js";
 
 const app = express();
 app.use(express.json());

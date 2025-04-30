@@ -19,19 +19,20 @@ This tool supports both **Command Line Interface (CLI)** and **REST API** modes.
 
 ```plaintext
 Nutritional_Estimator/vyb-assignment/
-├── api
-|    └──server.js                #Express server for API mode
-├── data/
-│   ├── nutritionDB.json        # Local nutrition database
-│   └── measurement.json        # Conversion of common units to grams
-├── modules/
-│   ├── calculateNutrition.js   # Sums nutrition values for all ingredients
-│   ├── classifyDish.js         # Categorizes dish into types
-│   ├── convertToGrams.js       # Converts units to grams
-│   ├── fetchRecipe.js          # Simulates fetching recipe ingredients
-│   ├── main.js                 # CLI application entry point
-│   └── mapIngredient.js        # Maps ingredients to standard database names                
+├── src/
+│   ├── data/
+│   │   ├── nutritionDB.json
+│   │   └── measurements.json
+│   ├── modules/
+│   │   ├── calculateNutrition.js
+│   │   ├── classifyDish.js
+│   │   ├── convertQuantities.js
+│   │   ├── fetchRecipe.js
+│   │   └── mapIngredients.js
+│   ├── main.js
+│   └── server.js
 ├── package.json
+├── vercel.json
 └── README.md
 ```
 

@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node src/main.js",
     "dev": "nodemon src/main.js",
-    "api": "node api/server.js"
+    "api": "node src/server.js",
+    "deploy": "node src/server.js"
   },
   "keywords": [
     "nutrition",
