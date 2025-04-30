@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/main.js",
     "dev": "nodemon src/main.js",
-    "api": "node server.js"
+    "api": "node api/server.js"
   },
   "keywords": [
     "nutrition",
@@ -24,7 +24,7 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "lodash": "^4.17.21",
-    "openai": "^4.96.0",
+    "openai": "^4.96.2",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
