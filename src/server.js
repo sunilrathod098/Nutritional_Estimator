@@ -5,9 +5,11 @@ import convertToGrams from "../src/modules/convertQuantities.js";
 import fetchRecipe from "../src/modules/fetchRecipe.js";
 import mapIngredient from "../src/modules/mapIngredients.js";
 
+
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
 
 app.get('/nutrition', async (req, res) => {
     try {
@@ -67,6 +69,7 @@ app.get('/nutrition', async (req, res) => {
 app.get('/', (_, res) => {
     res.send('Welcome to the Nutrition API');
 })
+
 
 const PORT = 4000;
 app.listen(PORT, () => {
